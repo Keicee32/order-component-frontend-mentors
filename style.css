@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: "Red Hat Display", serif;
+    font-size: 16px;
+    background: hsl(225, 100%, 94%);
+    color: hsl(224, 23%, 55%);
+    font-weight: 400;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1,
+h2, 
+p {
+    margin: 0;
+}
+
+h1, 
+.plans {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+h1, 
+.btn {   
+    margin-bottom: 20px;
+} 
+
+
+/* main {
+    background-image: url('images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.container {
+    width: 90%;
+    margin: 40px auto 25px;
+    border-radius: 10px;
+    background: #fff;
+    text-align: center;
+}
+
+.hero-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: hsl(225, 100%, 98%);
+    margin: 25px 10px ;
+    border-radius: 15px;
+}
+
+.pricing img {
+    width: 50px;
+}
+
+.prices {
+    margin-left: -30px;
+}
+
+.btn, 
+.cancel-order {
+    font-weight: 900;
+}
+
+.btn {
+    padding: 15px 80px;
+    background: hsl(245, 75%, 52%);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: hsl(223, 47%, 23%)
+}
+
+.cancel-order {
+    padding-bottom: 20px;
+}
+
+
+@media screen and (min-width: 1020px) and (max-width: 1450px) {
+    
+    .container {
+        max-width: 400px;
+        margin-top: 50px;
+        /* padding: 0 20px; */
+    }
+
+    .shrink {
+        padding: 0 30px;
+    }
+
+    .pricing {
+        padding: 10px 15px;
+        margin: 20px 40px ;
+    }
+
+    .btn {
+        padding: 15px 85px;
+    }
+}
